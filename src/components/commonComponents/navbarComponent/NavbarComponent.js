@@ -1,7 +1,8 @@
 import React, { useState } from "react";
+import "./navbarComponent.css";
 import { useSelector, useDispatch } from "react-redux";
-import { setDarkTheme, setLightTheme } from "../../redux/theme/themeSlice";
-import ScrollIndicator from "./ScrollIndicator";
+import { setDarkTheme, setLightTheme } from "../../../redux/theme/themeSlice";
+import ScrollIndicator from "../scrollIndicatorComponent/ScrollIndicatorComponent";
 
 const Navbar = () => {
   const [theme, setTheme] = useState(useSelector((state) => state.theme.value));
@@ -24,7 +25,7 @@ const Navbar = () => {
   return (
     <>
       <ScrollIndicator />
-      <div style={{ display: "flex" }}>
+      <div style={{ display: "flex" }} className="navbar-section">
         <h1 style={{ margin: 0 }}>Navbar</h1>
         <button onClick={() => themeToggler()}>Change Theme</button>
       </div>

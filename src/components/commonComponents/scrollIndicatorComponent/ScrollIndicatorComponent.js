@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from "react";
-import { Container, ProgressBar } from "../../themes";
+import "./scrollIndicatorComponent.css";
+import { Container, ProgressBar } from "../../../themes";
 
 const ScrollIndicator = () => {
   const [scroll, setScroll] = useState(0);

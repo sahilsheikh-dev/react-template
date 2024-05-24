@@ -1,7 +1,7 @@
 import "../assets/css/style.css";
 import React from "react";
 import { useEffect } from "react";
-import HeroSection from "../components/homepageComponents/HeroSection";
+import HeroSection from "../components/homepageComponents/heroSectionComponent/HeroSectionComponent";
 
 const Homepage = () => {
   useEffect(() => {

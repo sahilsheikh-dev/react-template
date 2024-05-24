@@ -1,6 +1,7 @@
 import React from "react";
+import "./footerComponent.css";
 
-const Footer = ({ theme }) => {
+const Footer = () => {
   return (
     <>
       <h1 style={{ margin: 0 }}>Footer</h1>

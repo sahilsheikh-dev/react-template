@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./scrollToTopComponent.css";
 
 const ScrollToTop = () => {
   const [scrollCheck, setScrollCheck] = useState(false);

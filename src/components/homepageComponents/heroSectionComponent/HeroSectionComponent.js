@@ -1,4 +1,5 @@
 import React from "react";
+import "./heroSectionComponent.css";
 import { useSelector } from "react-redux";
 
 const HeroSection = () => {

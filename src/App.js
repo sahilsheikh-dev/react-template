@@ -3,10 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
 import { darkTheme, GlobalStyles, lightTheme } from "./themes";
 import "@fontsource/montserrat";
-import Navbar from "./components/commonComponents/Navbar";
-import ScrollToTop from "./components/commonComponents/ScrollToTop";
+import Navbar from "./components/commonComponents/navbarComponent/NavbarComponent";
+import ScrollToTop from "./components/commonComponents/scrollToTopComponent/ScrollToTopComponent";
 import Homepage from "./screens/Homepage";
-import Footer from "./components/commonComponents/Footer";
+import Footer from "./components/commonComponents/footerComponent/FooterComponent";
 import { useSelector, useDispatch } from "react-redux";
 import { setLightTheme } from "./redux/theme/themeSlice";
 
